@@ -1,29 +1,3 @@
-// wish me luck ...
-// TODO I set the metre function to always be 4/4, I will work on trying something better than that later on.
-// To work on that you have to uncomment the metre getrandomint line in metregenerator
-// important for metregeneration is that the ornamentalElaboration function searches for values of 16 at some point.. These will have to change to support othe time signatures.
-// there are a couple more variables -other than the metre- that can have a big influence on the structure and sound of the songs produced.
-
-// Below is a list of these, that I can later on to experiment
-// TODO review all functions and add the variables that have a significant musical effect
-// I want to be able to change them and experiment that way. 
-
-// fundamentalElaboration : spotSequence
-// consonantSkip : cs - the size of the consonant skip and cst - the probability of it
-// fundamentalLineGenerator : generation parameter of RandomArray (max and length) / and the paramaters of the first while()
-// ornamentalElaboration : r1
-// metregenerator : metre, lengthRand, maxRand
-// chordGenerator : deghash
-// symmetryGenerator : the line containing         symmetry = Array.from({length: 4}, () => Math.floor(Math.random() * 3)); and the one before
-// elaborationSymmetryGenerator : the line containing         elaborationSymmetry = Array.from({length: 4}, () => Math.floor(Math.random() * 3)); and the one before
-// fundamentalDurationGenerator : the whole function is important 
-
-
-
-
-// Where I left of
-// 
-
 // ------------------------------------------------------------------------------------all the ornamnetal elaborations
 
 let ecsf = function(spot, list_in, dur_in){ //chord tone skip fixnum
