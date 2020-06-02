@@ -1,0 +1,17 @@
+{
+  "name": "listmidi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "list.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zerf"
+  ],
+  "author": "huet",
+  "license": "ISC",
+  "dependencies": {
+    "midi-writer-js": "^1.7.1"
+  }
+}
